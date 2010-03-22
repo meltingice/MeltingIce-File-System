@@ -1,0 +1,192 @@
+#debug-window{
+	position: absolute;
+	min-width: 240px;
+	min-height: 100px;
+	background-color: #f6ee76;
+	border: 3px #ebc700 solid;
+	opacity: .8;
+	z-index: 999;
+}
+
+#debug-header{
+	overflow:hidden;
+	background-color: #ebc700 !important;
+	cursor: move;
+}
+
+#debug-header h4{
+	float: left; width: 100px;
+}
+
+#debug-header p{
+	float: right;
+	width: 100px;
+	text-align: right;
+	margin: 2px !important;
+}
+
+#debug-header a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#debug-header a:hover{ text-decoration: underline; }
+
+#debug-window h4{
+	font-family: Georgia, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 0;
+	margin: 2px;
+}
+
+#debug-window p{
+	font-size: 11px;
+	margin: 2px 5px 2px 5px;
+}
+
+#pages{
+	list-style: none;
+	padding: 0;
+	margin: 0 0 40px 0;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+#pages li{
+	width: 215px;
+	background-color: transparent;
+	padding: 12px 0 12px 25px;
+	border-bottom: 1px #9a9ea0 solid;
+	font-weight: lighter;
+	font-size: 13px;
+	color: #2d2d2d;
+	cursor: pointer;
+}
+
+#pages li:hover{
+	background-color: #cdcdcd;
+}
+
+#pages li img{
+	margin: 0 10px 0 0;
+}
+
+.page img{ border: none; }
+
+.active-page{ color: #f8f8f8 !important; background: url("../img/activefolder.jpg") repeat-x; }
+
+#search h4{ font-size: 11px; }
+
+#userlist ul{
+	list-style: none;
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+}
+
+#userlist li{
+	padding: 5px 0 5px 20px;
+}
+
+#userlist a{
+	color: #364a49;
+	text-decoration: none;
+}
+
+#userlist a:hover{
+	text-decoration: underline !important;
+}
+
+#userlist .alt{
+	background-color: #e0e7ef;
+}
+
+#navbar-right{ margin-right: 5px; }
+
+#navbar-right p{
+	float: right;
+	margin-right: 5px;
+}
+
+#navbar-right img{
+	float: right;
+	margin: 4px 0 0 0;
+	border: none;
+}
+
+#usersearch{ text-align: center; }
+
+#search-username{
+	width: 100px;
+}
+
+#user-actions h4{
+	font-size: 11px;
+}
+
+#user_resync{
+	list-style: url('../img/icons/bullet_wrench.png');
+}
+
+#user_resync:hover{
+	color: #277b2b;
+}
+
+#user_delfiles{
+	list-style: url('../img/icons/bullet_delete.png');
+}
+
+#user_delfiles:hover{
+	color: #d92222
+}
+
+#user_admin{
+	list-style: url('../img/icons/bullet_key.png');
+}
+
+#user_admin:hover{
+	color: #277b2b;
+}
+
+#user_ban{
+	list-style: url('../img/icons/bullet_error.png');
+}
+
+#user_ban:hover{
+	color: #f5bd25;
+}
+
+#user_deluser{
+	list-style: url('../img/icons/bullet_delete.png');
+}
+
+#user_deluser:hover{
+	color: #d92222;
+}
+
+#user-actions li{
+	font-size: 11px;
+	cursor: pointer;
+}
+
+#user-actions li:hover{
+	text-decoration: underline;
+}
+
+#ip-ban-form h4{
+	font-size: 11px;
+}
+
+#ip-ban-form{ text-align: center; }
+
+#banip-input{
+	width: 100px;
+}
+
+.click-change{
+	color: #000000;
+	cursor: pointer;
+}
+
+.click-change:hover{
+	text-decoration: underline;
+}

@@ -1,0 +1,165 @@
+.ui-dialog{
+	background-image: url('../img/modal-bk.png');
+	background-repeat: no-repeat;
+	padding: 23px 20px 0 20px;
+}
+
+.ui-resizable-handle{
+	background: transparent !important;
+	border: none !important;
+}
+
+.ui-dialog-titlebar{
+	text-align: right;
+	width: 400px;
+}
+
+.ui-dialog-title{
+	float: left;
+	margin: 15px 0 10px 20px;
+	color: #575757;
+	font-size: 20px;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	border-bottom: 1px #b8b8b8 solid;
+	width: 360px;
+	text-align: left;
+}
+
+.ui-dialog-titlebar a{
+	color: #f6f6f6;
+	text-decoration: none;
+}
+
+.ui-dialog-titlebar-close{
+	margin-right: 5px;
+	color: #575757 !important; 
+}
+
+.ui-dialog-content{
+	padding: 0 8px 0 8px;
+	float: left;
+}
+
+.ui-dialog-content p{
+	margin: 4px 0 4px 0;
+	text-align: center;
+	color: #3e3e3e;
+}
+
+.ui-dialog-delconfirm{
+	background-color: #555555;
+	color: #f8f8f8 !important;
+	border: 1px #000000 dashed;
+	padding: 5px 2px 5px 2px;
+	margin-left: 15px !important;
+	width: 350px;
+}
+
+.dialog_content-title{
+	float: left;
+	margin: 5px 0 5px 50px;
+	color: #575757;
+	font-size: 20px;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	border-bottom: 1px #b8b8b8 solid;
+	width: 200px;
+	text-align: left;
+	font-weight: normal;
+	font-size: 14px;
+
+}
+
+.dialog_leftcontent{
+	text-align: right;
+	width: 120px;
+	display: block;
+	float: left;
+	color: #8b8b8b;
+	font-size: 11px;
+	margin: 0;
+}
+
+.dialog_rightcontent{
+	text-align: left;
+	width: 170px;
+	display: block;
+	float: right;
+	color: #282828;
+	font-size: 11px;
+	margin-left: 4px;
+}
+
+.dialog_rightcontent input{
+	height: 12px;
+	width: 120px;
+}
+
+#dialog_folderinfo{
+	font-size: 13px;
+	width: 300px;
+	margin: 0;
+}
+
+#dialog_folderedit{
+	width: 300px;
+	font-size: 13px;
+}
+
+#dialog_foldereditform .dialog_leftcontent{
+	height: 22px !important;
+}
+
+#dialog_buttons{
+	margin: 20px 0 0 60px;
+	text-align: center;
+	float: left;
+}
+
+#dialog_buttons img{ border:none; }
+
+.folderinfo{
+	position: absolute;
+	z-index: 5;
+	width: 276px;
+	height: 194px;
+	background: url("../img/folderinfo-bk.png") no-repeat;
+	margin: 0;
+	padding: 16px 0 0 0;
+}
+
+.clear{
+	float: left;
+	margin: -10px 0 0 0;
+	padding: 0;
+}
+
+#crossload-form{
+	text-align: center;
+}
+
+
+#crossload-url{
+	width: 480px;
+	height: 30px;
+	font-size: 24px;
+	color: #4d4d4d;
+}
+
+#account-settings{
+	list-style: url('../img/icons/bullet_green.png');
+	font-size: 13px;
+}
+
+#account-settings li{
+	color: #364a49;
+}
+
+#account-settings span{
+	color: #000000 !important;
+}
+
+#modalcontent h4{
+	margin: 0 5px 0 20px;
+	font-size: 13px;
+	color: #575757;
+}
